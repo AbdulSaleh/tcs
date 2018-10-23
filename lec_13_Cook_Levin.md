@@ -127,7 +127,7 @@ Moreover by [{NP:eq}](){.eqref}, $A$ will output $1$ on $x$ if and only if $F(x)
 
 $$\mathbf{P} \subseteq \mathbf{NP} \subseteq \mathbf{NP}\;.$$
 
-The time hierarchy theorem ([time-hierarchy-thm](){.ref}) implies that $\mathbf{P} \subsetneq \mathbf{EXP}$ and hence at least
+The time hierarchy theorem ([time-hierarchy-thm](){.ref}) implies that $\mathbf{P} \subseteq \mathbf{EXP}$ and hence at least
 one of the two inclusions $\mathbf{P} \subseteq \mathbf{NP}$ or $\mathbf{NP} \subseteq \mathbf{EXP}$ is _strict_.
 It is believed that both of them are in fact strict inclusions.
 That is, it is believed that there are functions in $\mathbf{NP}$ that cannot be computed in polynomial time (this is the $\mathbf{P} \neq \mathbf{NP}$ conjecture)  and that there are functions $F$ in $\mathbf{EXP}$ for which we cannot even efficiently _certify_ that $F(x)=1$ for a given input $x$.^[One function $F$ that is believed to lie outside $\mathbf{NP}$ is the function $\overline{3SAT}$ defined as  $\overline{3SAT}(\varphi)= 1 - 3SAT(\varphi)$ for every 3CNF formula $\varphi$. The conjecture that $\overline{3SAT}\not\in \mathbf{NP}$ is known as the "$\mathbf{NP} \neq \mathbf{coNP}$" conjecture. It implies the $\mathbf{P} \neq \mathbf{NP}$ conjecture (can you see why?).]
